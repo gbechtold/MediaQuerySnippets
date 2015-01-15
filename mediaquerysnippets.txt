@@ -1,0 +1,194 @@
+Media Query Snippets Overview
+-----------------------------
+Stand: 15.01.2015
+
+iPad im Hochformat und Querformat
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  { /* CSS HIER EINFÜGEN */}
+
+iPad im Querformat
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) { /* CSS HIER EINFÜGEN */}
+
+iPad im Hochformat
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) { /* CSS HIER EINFÜGEN */ }
+
+iPad 3 & 4 Media Queries
+Da das Retina iPAD die doppelte Pixeldichte hat muss hier @2 bei der Pixelratio verwendet werden
+
+Retina iPad im Hochformat und Querformat
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) { /* CSS HIER EINFÜGEN */}
+
+Retina iPad im Querformat
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) { /* CSS HIER EINFÜGEN */}
+
+Retina iPad im Hochformat
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) { /* CSS HIER EINFÜGEN */ }
+iPad 1 & 2 Media Queries
+
+iPad 1 & 2 im Hochformat und Querformat
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1){ /* CSS HIER EINFÜGEN */}
+
+iPad 1 & 2 im Querformat
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  { /* CSS HIER EINFÜGEN */}
+
+iPad 1 & 2 im Hochformat
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) { /* CSS HIER EINFÜGEN */ }
+
+
+
+
+
+iPAD Mini
+
+iPad mini im Hochformat und Querformat
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  { /* CSS HIER EINFÜGEN */}
+
+iPad mini im Querformat
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  { /* CSS HIER EINFÜGEN */}
+
+iPad mini im Hochformat
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1)  { /* CSS HIER EINFÜGEN */ }
+
+iPad mini Auflösung
+Screen Width = 768px (CSS Pixel)
+Screen Height = 1024px (CSS Pixel)
+Screen Width = 768px (Physikalische Pixel)
+Screen Height = 1024px (Physikalische Pixel)
+Device-pixel-ratio: 1
+
+
+iPhone Media Queries
+
+iPhone 6 Media Queries
+iPhone 6 im Hochformat und Querformat
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) { /* CSS HIER EINFÜGEN */}
+
+iPhone 6 im Querformat
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) { /* CSS HIER EINFÜGEN */}
+
+iPhone 6 im Hochformat
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) { /* CSS HIER EINFÜGEN */ }
+
+iPhone 6 Plus Media Queries
+iPhone 6 Plus im Hochformat und Querformat
+@media only screen
+and (min-device-width : 540px)
+and (max-device-width : 960px) { /* CSS HIER EINFÜGEN */}
+
+iPhone 6 Plus im Querformat
+@media only screen
+and (min-device-width : 540px)
+and (max-device-width : 960px)
+and (orientation : landscape) { /* CSS HIER EINFÜGEN */}
+
+iPhone 6 Plus im Hochformat
+@media only screen
+and (min-device-width : 540px)
+and (max-device-width : 960px)
+and (orientation : portrait) { /* CSS HIER EINFÜGEN */ }
+
+iPhone 5 & 5S Media Queries
+iPhone 5 & 5S im Hochformat und Querformat
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) { /* CSS HIER EINFÜGEN */}
+
+iPhone 5 & 5S im Querformat
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) { /* CSS HIER EINFÜGEN */}
+
+iPhone 5 & 5S im Hochformat
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) { /* CSS HIER EINFÜGEN */ }
+iPhone 2G, 3G, 4, 4S Media Queries
+Diese Media Queries gelten auch für iPod Touch der Generationen  1-4.
+
+iPhone 2G-4S im Hochformat und Querformat
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) { /* CSS HIER EINFÜGEN */}
+
+iPhone 2G-4S im Querformat
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : landscape) { /* CSS HIER EINFÜGEN */}
+
+iPhone 2G-4S im Hochformat
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : portrait) { /* CSS HIER EINFÜGEN */ }
+
+iPhone 5 Auflösung
+Screen Width = 320px (CSS Pixel)
+Screen Height = 568px (CSS Pixel)
+Screen Width = 640px (Physikalische Pixel)
+Screen Height = 1136px (Physikalische Pixel)
+Device-pixel-ratio: 2
+
+iPhone 4/4S Auflösung
+Screen Width = 320px (CSS Pixel)
+Screen Height = 480px (CSS Pixel)
+Screen Width = 640px (Physikalische Pixel)
+Screen Height = 960px (Physikalische Pixel)
+Device-pixel-ratio: 2
+
+iPhone 2G/3G/3GS Auflösung
+Screen Width = 320px (CSS Pixel)
+Screen Height = 480px (CSS Pixel)
+Screen Width = 320px (Physikalische Pixel)
+Screen Height = 480px (Physikalische Pixel)
+Device-pixel-ratio: 1
